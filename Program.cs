@@ -5,6 +5,7 @@ class Program
         static MainMenu mainMenu = new MainMenu();
 
         static void Main(string[] args) {
+            Console.Clear();
             PrepareMainMenuControllerWhenProgramIsLoaded();
 
             ShowMainMenuScreen();
