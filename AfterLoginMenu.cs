@@ -4,6 +4,7 @@ class AfterLoginMenuController {
     Show_Menu show_Menu = new Show_Menu();
     MainMenu mainMenu = new MainMenu();
     Todate todate = new Todate();
+    /*Cookingtime cookingtime = new Cookingtime();*/
 
     private User user;
 

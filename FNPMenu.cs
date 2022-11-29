@@ -17,6 +17,7 @@ class Show_Menu{
         }
         Console.WriteLine("----------------------------");
         Console.WriteLine("Type Food number to order.");
+        Console.WriteLine("Type zero to stop order.");
         Console.WriteLine("----------------------------");
         get_Orders.get_order();
         get_Orders.get_total_cost();
@@ -34,6 +35,7 @@ class Show_Menu{
         }
         Console.WriteLine("---------------------------------");
         Console.WriteLine("Type Promotion number to order.");
+        Console.WriteLine("Type zero to stop order.");
         Console.WriteLine("---------------------------------");
         get_Orders.get_order();
         get_Orders.get_total_cost();

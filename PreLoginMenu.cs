@@ -63,11 +63,11 @@ class MainMenu{
 
         private void ShowMenuScreenWhenAccountInCorrect(bool authenStatus) {
         if (!authenStatus) {
-            ShowTime();
             Console.WriteLine("This account is incorrect Please try again.");
             Console.WriteLine("Press enter to get back to menu.");
             Console.WriteLine("-------------------------------------------");
             Console.ReadLine();
+            Console.Clear();
             ShowMenuScreenInformation();
         }
     }
